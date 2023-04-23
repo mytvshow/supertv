@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+
+
+
+
+
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super TV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Super TV</title>
+    
 
     <link rel="icon" href="image/logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CMontserrat:200,300,400,500,700&display=swap">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container p-4">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"><!-- Fonts -->
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CMontserrat:200,300,400,500,700&amp;display=swap">
+    <link rel="stylesheet" href="style.css"></head><body>
+    <div style="font-weight: bold;" class="container p-4">
         <div class="navbar-brand col-11">
-            <a href="#top" style="text-decoration:none; color: black;"><h2><i class="fa-solid fa-tv mx-4"></i>超級電視</h2></a>
+            <a href="#top" style="text-decoration: none; color: black;"><h2><i class="fa-solid fa-tv mx-4"></i>超級電視</h2></a>
         </div>
     </div>
 
-    <div class="container" id="app">
+    <div style="font-weight: bold;" class="container" id="app">
         <div class="row p-4">
             <div class="col-12 m-3 text-center">
                 <div class="btn-group-toggle" role="group">
@@ -32,10 +36,10 @@
             </div>
         </div>
 
-        <div class="row ">
+        <div class="row">
             <div class="filtered-content">
                 <div class="row">
-                    <div v-for="(item, index) in filteredItems" :key="index" class="content-item  col-xl-2 col-lg-3 col-md-4 col-sm-6 my-2">
+                    <div v-for="(item, index) in filteredItems" :key="index" class="content-item col-xl-2 col-lg-3 col-md-4 col-sm-6 my-2">
                         <div class="mx-3">
                             <div class="web_card">
                                 <a target="_blank" :href="item.url">
@@ -47,33 +51,31 @@
                     </div>
                 </div>
             </div>
-            <div v-show="index">
-                <ol style="font-size: 1.3rem;">
-                    <li>使用電視盒用TV觀看者，需用無線滑鼠操作。</li>
-                    <li>觀看電視主要是 新聞、電視劇、電影、綜藝 等節目，這裡搜集了網路上相關網站，可滿足觀看需求。</li>
-                    <li>看新聞直播除了 <a href="https://piko.live/c/news" target="_blank">YouTube</a> 等頻道外，推薦 (<a target="_blank" href="https://www.ofiii.com/channel/watch/4gtv-4gtv051">ofiii 歐非</a>)
-                        網站，裏面資源全是高清HD畫值，除了一開始有約一分鐘的廣告，再來就暢行無阻。</li>
-                    <li>如果覺得某些網站不好使用，就看別的網站，找個適合自己觀看習慣的網站，一般人在瀏覽也是那幾個自己慣用的網站而已。</li>
-                    <li>電視盒並非個人電腦，有些網站要求註冊，能否登入或登入後個資能否取消，一切都未知，所以最好純瀏覽就好，如發生問題請自行負責。</li>
-                </ol>
-            </div>
+            <div v-show="index"><big>
+                </big><ol><big>
+                    </big><li><big>Google Chrome 瀏覽器需要用滑鼠來操作，搖控器的滑鼠功能不太流暢，最好搭配無線滑鼠使用。</big></li><big>
+                    </big><li><big>超級電視裏的內容，都是從網路搜集而來，經過整理分類，方便大家瀏覽使用，內容包括新聞、電視劇、電影、綜藝 等節目，可滿足一般觀看需求。</big></li><big>
+                    </big><li><big>若使用中，有某些網站消失或不好使用不能觀看，那是對方網站問題，換個網站另找個適合自己觀看的頻道，一般人再瀏覽也是那幾個自己慣用的網站而已。</big></li><big>
+                    </big><li><big>不要相信網站廣告的內容，特別是送點數賭博或註冊加入會員買點數等等，看電視只是娛樂打發時間而已，要你出錢的通通不要，大部分都是騙人的。</big></li><big>
+                    </big><li><big>本電視盒只提供免費觀看的內容，如果你某些ＡＰＰ已有付費，亦可註冊後觀看全部內容。祝各位使用者收視愉快！</big></li><big>
+                </big></ol><big>
+            </big></div>
         </div>
 
-        <footer style="margin-top: 20px; ">
-            <div class="copyright__inner">
+        <footer style="margin-top: 20px;">
+            </footer><div class="copyright__inner">
                 <hr>
-                <div class="copyright" >
+                <div class="copyright">
                     <p>© 2023 CL. All rights reserved</p>
                 </div>
             </div>
-        </footer>
+        
 
     </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="app.js"></script>
-</body>
-</html>
+<script style="font-weight: bold;" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script style="font-weight: bold;" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script style="font-weight: bold;" src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script style="font-weight: bold;" src="app.js"></script>
+</body></html>

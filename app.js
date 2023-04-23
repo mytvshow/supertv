@@ -133,15 +133,15 @@ const data = [
     },
     {
        type: ["綜合影劇Ａ",],
-       name: "楓林網",
-       url: "https://8maple.tv/",
-       img: "image/web/17.jpg",
+       name: "123kubo",
+       url: "https://123kubo.tv/",
+       img: "image/web/66.jpg",
    },
    {
        type: ["綜合影劇Ａ",],
-       name: "泥視頻",
-       url: "https://www.nivod4.tv/index.html",
-       img: "image/web/5.jpg",
+       name: "GIKA 劇咖",
+       url: "https://gika.tv",
+       img: "image/web/70.jpg",
     },
     {
         type: ["綜合影劇Ａ",],
@@ -169,6 +169,12 @@ const data = [
     },
     {
         type: ["綜合影劇Ａ",],
+        name: "藍光影院",
+        url: "https://www.lgyy.vip",
+        img: "image/web/75.jpg",
+    },   
+    {
+        type: ["綜合影劇Ａ",],
         name: "LoveTvShow",
         url: "https://lovetv.show",
         img: "image/web/13.jpg",
@@ -182,7 +188,7 @@ const data = [
     {
         type: ["綜合影劇Ａ",],
         name: "555電影",
-        url: "https://www.o8tv.com/",
+        url: "https://www.555dianying.cc/",
         img: "image/web/10.jpg",
     },
     {
@@ -206,15 +212,45 @@ const data = [
     {
         type: ["綜合影劇Ａ",],
         name: "黑料電影",
-        url: "https://dy12.fun/",
+        url: "https://dy12.fun/catalog",
         img: "image/web/39.jpg",
+    },
+    {
+        type: ["綜合影劇Ｂ",],
+        name: "NO視頻",
+        url: "https://www.novipnoad.com",
+        img: "image/web/77.jpg",
+    },
+    {
+        type: ["綜合影劇Ｂ",],
+        name: "愛迪影視",
+        url: "https://aidi.pro",
+        img: "image/web/78.jpg",
+    },
+    {
+        type: ["綜合影劇Ｂ",],
+        name: "唐人街影院",
+        url: "https://www.tangrenjie.tv",
+        img: "image/web/84.jpg",
+    },
+    {
+        type: ["綜合影劇Ｂ",],
+        name: "小寶影院",
+        url: "https://xiaobaotv.net/index.php",
+        img: "image/web/82.jpg",
+    },
+    {
+        type: ["綜合影劇Ｂ",],
+        name: "329影城",
+        url: "https://329tv.app",
+        img: "image/web/83.jpg",
     },
     {
         type: ["綜合影劇Ｂ",],
         name: "99kubo酷播",
         url: "https://tv99kubo.tv/",
         img: "image/web/016.jpg",
-    },
+    },                 
     {
         type: ["綜合影劇Ｂ",],
         name: "小鴨影音",
@@ -223,21 +259,21 @@ const data = [
     },
     {
         type: ["綜合影劇Ｂ",],
-        name: "楓林網",
-        url: "https://imaple.app/",
-        img: "image/web/23.jpg",
+        name: "IQTV VIP",
+        url: "https://iqtv.vip",
+        img: "image/web/69.jpg",
     },
     {
         type: ["綜合影劇Ｂ",],
-        name: "低端影視",
-        url: "https://ddys.art/",
-        img: "image/web/14.jpg",
+        name: "我愛影視",
+        url: "https://100.mvsky.xyz",
+        img: "image/web/74.jpg",
     },
     {
         type: ["綜合影劇Ｂ",],
-        name: "94580",
-        url: "https://94580.net/",
-        img: "image/web/16.jpg",
+        name: "電影基地",
+        url: "https://www.dyjidi.com",
+        img: "image/web/72.jpg",
     },
     {
         type: ["綜合影劇Ｂ",],
@@ -247,15 +283,15 @@ const data = [
     },
     {
         type: ["綜合影劇Ｂ",],
-        name: "今日影視",
-        url: "https://jinri.live/",
-        img: "image/web/19.jpg",
+        name: "電影工廠",
+        url: "https://dygc.cc",
+        img: "image/web/76.jpg",
     },
     {
         type: ["綜合影劇Ｂ",],
-        name: "99酷播",
-        url: "https://123kubo.net/",
-        img: "image/web/20.jpg",
+        name: "海兔影院",
+        url: "https://www.haitu.tv/",
+        img: "image/web/81.jpg",
     },
     {
         type: ["綜合影劇Ｂ",],
@@ -265,21 +301,9 @@ const data = [
     },
     {
         type: ["綜合影劇Ｂ",],
-        name: "伊莉影音",
-        url: "https://eynytv.com",
-        img: "image/web/22.jpg",
-    },
-    {
-        type: ["綜合影劇Ｂ",],
-        name: "小白影音",
-        url: "https://www.maxbaytw.com/",
-        img: "image/web/24.jpg",
-    },
-    {
-        type: ["綜合影劇Ｂ",],
-        name: "蛋蛋赞影院",
-        url: "https://www.dandanzan.cc",
-        img: "image/web/25.jpg",
+        name: "追心影視",
+        url: "https://www.zhuixin.cc/",
+        img: "image/web/79.jpg",
     },
     {
         type: ["綜合影劇Ｂ",],
@@ -295,16 +319,88 @@ const data = [
     },
     {
         type: ["綜合影劇Ｂ",],
+        name: "大米星球",
+        url: "https://dmxq.info",
+        img: "image/web/71.jpg",
+    },
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "楓林網",
+        url: "https://8maple.tv/",
+        img: "image/web/17.jpg",
+    }, 
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "泥視頻",
+        url: "https://www.nivod4.tv/index.html",
+        img: "image/web/5.jpg",
+    },
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "58BTV",
+        url: "https://58btv.net/",
+        img: "image/web/80.jpg",
+    },    
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "愛壹帆",
+        url: "https://www.iyf.tv",
+        img: "image/web/68.jpg",
+    },
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "愛壹帆清爽版",
+        url: "https://www.iyf1.tv/",
+        img: "image/web/67.jpg",
+    }, 
+    {
+        type: ["綜合影劇Ｃ",],
         name: "MK影視",
         url: "https://www.mkvdo.com/",
         img: "image/web/58.jpg",
+    },                   
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "小白影音",
+        url: "https://www.maxbaytw.com/",
+        img: "image/web/24.jpg",
     },
     {
-        type: ["綜合影劇Ｂ",],
+        type: ["綜合影劇Ｃ",],
+        name: "愛下載影院",
+        url: "http://axz.la/",
+        img: "image/web/73.jpg",
+    },
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "99酷播",
+        url: "https://123kubo.net/",
+        img: "image/web/20.jpg",
+    },     
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "伊莉影音",
+        url: "https://eynytv.com",
+        img: "image/web/22.jpg",
+    },     
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "低端影視",
+        url: "https://ddys.art/",
+        img: "image/web/14.jpg",
+    },    
+    {
+        type: ["綜合影劇Ｃ",],
         name: "狗狗影音",
         url: "https://dogevod.com/",
         img: "image/web/41.jpg",
     },
+    {
+        type: ["綜合影劇Ｃ",],
+        name: "94580",
+        url: "https://94580.net/",
+        img: "image/web/16.jpg",
+    },    
     {
         type: ["專題影劇",],
         name: "看韩剧",
@@ -433,15 +529,15 @@ const data = [
     },
     {
         type: ["直播",],
-        name: "新聞台直播",
-        url: "https://www.kocpc.com.tw/archives/12241",
-        img: "image/web/63.jpg",
-    },
-    {
-        type: ["直播",],
         name: "皮克直播",
         url: "https://piko.live/c/news",
         img: "image/web/52.jpg",
+    },
+    {
+        type: ["直播",],
+        name: "新聞台直播",
+        url: "https://www.kocpc.com.tw/archives/12241",
+        img: "image/web/63.jpg",
     },
     {
         type: ["直播",],
@@ -462,15 +558,15 @@ const data = [
 const app = Vue.createApp({
     data(){
         return{
-            filters: ['首頁', '入口網', '綜合影劇Ａ', '綜合影劇Ｂ', '專題影劇', '直播'],
-            selectedFilter: '首頁',
+            filters: ['使用說明', '入口網', '綜合影劇Ａ', '綜合影劇Ｂ',  '綜合影劇Ｃ', '專題影劇', '直播'],
+            selectedFilter: '使用說明',
             items: data,
             index: true,
         }
     },
     computed: {
         filteredItems() {
-            if (this.selectedFilter === '首頁') {
+            if (this.selectedFilter === '使用說明') {
                 this.index = true;
                 return this.items === [];
             }
